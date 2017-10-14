@@ -1,0 +1,30 @@
+html, body {
+    background-color: rgb(244,66,66);
+    <div class="sprite cat" id="cat">
+        <img src="https://vignette.wikia.nocookie.net/kaos7003/images/1/18/Scratch_cat.png/revision/latest?cb=20160507223015" alt="Scratch cat" />
+    </div>
+);
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    position: relative;
+}
+
+.timer {
+    position: relative;
+    left: 2%;
+    top: 2%;
+}
+
+.sprite {
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.sprite img {
+    max-width: 100%;
+    max-height: 100%;
+}
